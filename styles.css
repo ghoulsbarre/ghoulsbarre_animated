@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  overflow: hidden;
+}
+
+.page-wrap {
+  background: #131210;
+  min-height: 100vh;
+  height: 100vh;
+  overflow: hidden;
+
+  /* Initial state */
+  transform: scale(0.02) rotate(10deg);
+  filter: blur(3em);
+}
